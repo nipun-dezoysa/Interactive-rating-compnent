@@ -1,2 +1,1 @@
-# Interactive-rating-compnent
- Interactive rating component Frontend Mentor Challenge
+Interactive rating component challenge without using any framework.
