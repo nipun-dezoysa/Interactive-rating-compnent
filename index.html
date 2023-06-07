@@ -16,27 +16,28 @@
   </style>
 </head>
 <body>
-  <div class="box">
-    <div class="main">
+  <script src="script.js"></script>
+  <div class="box" id="box">
+    <div id="main">
       <div class="item"><img class="star" src="images/icon-star.svg" alt="rating star icon"></div>
       
       <h1>How did we do?</h1>
       <p>Please let us know how we did with your support request. All feedback is appreciated 
         to help us improve our offering!</p>
       <div class="options">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-        <div class="item">5</div>
+        <button id="one" class="item" onclick="oii(1)">1</button>
+        <button id="two" class="item" onclick="oii(2)">2</button>
+        <button id="three" class="item" onclick="oii(3)">3</button>
+        <button id="four" class="item" onclick="oii(4)">4</button>
+        <button id="five" class="item" onclick="oii(5)">5</button>
       </div>
-      <button id="submit">SUBMIT</button>
+      <button id="submit" onclick="sub()">SUBMIT</button>
     </div>
       
   </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Nipun Avishka</a>.
   </div>
 </body>
 </html>
