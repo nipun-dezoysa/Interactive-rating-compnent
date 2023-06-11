@@ -32,7 +32,7 @@ p{
     border: none;
 }
 .sitem{
-    background-color: hsl(216, 12%, 54%);background-color:hsl(25, 97%, 53%);
+    background-color:hsl(25, 97%, 53%);
     color: white;
     font-weight: 700;
     width: 50px;
@@ -70,4 +70,18 @@ p{
     color: hsl(25, 97%, 53%);
     background-color:white;
 
+}
+.thank{
+    text-align: center;
+}
+.lb{
+    margin: 10px auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px;
+    width: 200px;
+    height: 20px;
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(25, 97%, 53%);
 }
