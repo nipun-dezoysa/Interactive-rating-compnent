@@ -5,11 +5,11 @@ function oii(b){
     const three = document.querySelector('#three');
     const four = document.querySelector('#four');
     const five = document.querySelector('#five');
-    one.className = 'item';
-    two.className = 'item';
-    three.className = 'item';
-    four.className = 'item';
-    five.className = 'item';
+    one.className = 'items';
+    two.className = 'items';
+    three.className = 'items';
+    four.className = 'items';
+    five.className = 'items';
     switch(b){
         case 1:one.className = 'sitem';break;
         case 2:two.className = 'sitem';break;
